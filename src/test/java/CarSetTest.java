@@ -7,7 +7,11 @@ class CarSetTest {
     private CarSet carSet;
     @BeforeEach
     void setUp() {
+<<<<<<< HEAD
         carSet = new CarHashSet();
+=======
+        //inti
+>>>>>>> origin/master
         for (int i = 0; i < 100; i++) {
             carSet.add(new Car("Brand" + i, i));
         }
